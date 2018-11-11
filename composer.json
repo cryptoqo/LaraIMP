@@ -1,0 +1,36 @@
+{
+    "name": "zabanya/laraimp",
+    "type": "library",
+    "description": "CoinImp integration for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chaeril",
+            "email": "chaeril@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+		"guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zabanya\\LaraImp\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Zabanya\\LaraImp\\LaraImpServiceProvider"
+            ],
+            "aliases": {
+                "LaraImp": "Zabanya\\LaraImp\\LaraImpFacade"
+            }
+        }
+    }
+}
