@@ -1,5 +1,5 @@
 {
-    "name": "zabanya/laraimp",
+    "name": "cryptoqo/laraimp",
     "type": "library",
     "description": "CoinImp integration for Laravel",
     "license": "MIT",
