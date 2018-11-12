@@ -13,7 +13,7 @@ You'll also need a CoinImp Site Key, which you can retrieve by [signing up](http
 You can install the package via Composer:
 
 ```bash
-composer require zabanya/laraimp
+composer require cryptoqo/laraimp
 ```
 
 In Laravel 5.5 and up, the package will automatically register the service provider and facade
