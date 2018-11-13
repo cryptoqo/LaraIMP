@@ -1,12 +1,12 @@
 <?php
 
-namespace Zabanya\LaraImp;
+namespace Cryptoqo\LaraImp;
 
 use Illuminate\View\View;
 
 class ScriptViewCreator
 {
-    /** @var \Zabanya\LaraImp\LaraImp */
+    /** @var \Cryptoqo\LaraImp\LaraImp */
     protected $laraImp;
 
     public function __construct(LaraImp $laraImp)

@@ -1,6 +1,6 @@
 <?php
 
-namespace Zabanya\LaraImp;
+namespace Cryptoqo\LaraImp;
 
 use Cache;
 use Storage;
@@ -8,6 +8,7 @@ use GuzzleHttp\Client;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use GuzzleHttp\Exception\ConnectException;
+use Cryptoqo\LaraImp\LaraImpRequest;
 
 class LaraImpController extends Controller
 {

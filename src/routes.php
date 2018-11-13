@@ -1,3 +1,3 @@
 <?php
 
-Route::get('/imp', 'Zabanya\LaraImp\LaraImpController@index')->name('laraimp');
+Route::get('/imp', 'Cryptoqo\LaraImp\LaraImpController@index')->name('laraimp');

@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Zabanya\\LaraImp\\": "src/"
+            "Cryptoqo\\LaraImp\\": "src/"
         }
     },
     "extra": {
@@ -26,10 +26,10 @@
         },
         "laravel": {
             "providers": [
-                "Zabanya\\LaraImp\\LaraImpServiceProvider"
+                "Cryptoqo\\LaraImp\\LaraImpServiceProvider"
             ],
             "aliases": {
-                "LaraImp": "Zabanya\\LaraImp\\LaraImpFacade"
+                "LaraImp": "Cryptoqo\\LaraImp\\LaraImpFacade"
             }
         }
     }
