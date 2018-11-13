@@ -1,6 +1,6 @@
 <?php
 
-namespace Zabanya\LaraImp;
+namespace Cryptoqo\LaraImp;
 
 use Cache;
 use Storage;
@@ -8,6 +8,7 @@ use GuzzleHttp\Client;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use GuzzleHttp\Exception\ConnectException;
+use Cryptoqo\LaraImp\LaraImpRequest as LaraImpRequest;
 
 class LaraImpController extends Controller
 {
@@ -19,7 +20,7 @@ class LaraImpController extends Controller
         $req_file = $validated['f'];
 
         if (substr($req_file, -2) == 'js') {
-            $CACHE_DIR = 'ci-cache';
+            $CACHE_DIR = 'laraimp';
             $cache_filename = "$CACHE_DIR/$req_file";
             $script = '';
             $type = 'application/javascript';

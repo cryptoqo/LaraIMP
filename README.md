@@ -23,12 +23,12 @@ In Laravel 5.5 and up, the package will automatically register the service provi
 
 'providers' => [
     ...
-    Zabanya\LaraImp\LaraImpServiceProvider::class,
+    Cryptoqo\LaraImp\LaraImpServiceProvider::class,
 ],
 
 'aliases' => [
     ...
-    "LaraImp": Zabanya\LaraImp\LaraImpFacade::class,
+    "LaraImp": Cryptoqo\LaraImp\LaraImpFacade::class,
 ],
 ```
 
@@ -37,13 +37,13 @@ In Laravel 5.5 and up, the package will automatically register the service provi
 Next, publish the config files:
 
 ```bash
-php artisan vendor:publish --provider="Zabanya\LaraImp\LaraImpServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Cryptoqo\LaraImp\LaraImpServiceProvider" --tag="config"
 ```
 
 Optionally publish the view files. Recommended if you want to add extra implementations.
 
 ```bash
-php artisan vendor:publish --provider="Zabanya\LaraImp\LaraImpServiceProvider" --tag="views"
+php artisan vendor:publish --provider="Cryptoqo\LaraImp\LaraImpServiceProvider" --tag="views"
 ```
 
 ## Usage

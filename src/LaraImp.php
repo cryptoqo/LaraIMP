@@ -1,6 +1,6 @@
 <?php
 
-namespace Zabanya\LaraImp;
+namespace Cryptoqo\LaraImp;
 
 class LaraImp
 {

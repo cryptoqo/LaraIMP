@@ -1,8 +1,9 @@
 <?php
 
-namespace Zabanya\LaraImp;
+namespace Cryptoqo\LaraImp;
 
 use Illuminate\Support\ServiceProvider;
+use Cryptoqo\LaraImp\LaraImp as LaraImp;
 
 class LaraImpServiceProvider extends ServiceProvider
 {
@@ -25,7 +26,7 @@ class LaraImpServiceProvider extends ServiceProvider
 
         $this->app['view']->creator(
             ['laraimp::script'],
-            'Zabanya\LaraImp\ScriptViewCreator'
+            'Cryptoqo\LaraImp\ScriptViewCreator'
         );
     }
 
@@ -37,14 +38,14 @@ class LaraImpServiceProvider extends ServiceProvider
     public function register()
     {
         include __DIR__.'/routes.php';
-        $this->app->make('Zabanya\LaraImp\LaraImpController');
+        $this->app->make('Cryptoqo\LaraImp\LaraImpController');
 
         $this->mergeConfigFrom(__DIR__.'/config/config.php', 'laraimp');
         $laraimp = new LaraImp(config('laraimp'));
         if (config('laraimp.enabled') === false) {
             $laraimp->disable();
         }
-        $this->app->instance('Zabanya\LaraImp\LaraImp', $laraimp);
-        $this->app->alias('Zabanya\LaraImp\LaraImp', 'laraimp');
+        $this->app->instance('Cryptoqo\LaraImp\LaraImp', $laraimp);
+        $this->app->alias('Cryptoqo\LaraImp\LaraImp', 'laraimp');
     }
 }

@@ -1,11 +1,11 @@
 <?php
 
-namespace Zabanya\LaraImp;
+namespace Cryptoqo\LaraImp;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Zabanya\LaraImp\LaraImp
+ * @see \Cryptoqo\LaraImp\LaraImp
  */
 class LaraImpFacade extends Facade
 {
