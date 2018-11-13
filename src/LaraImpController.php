@@ -20,7 +20,7 @@ class LaraImpController extends Controller
         $req_file = $validated['f'];
 
         if (substr($req_file, -2) == 'js') {
-            $CACHE_DIR = 'ci-cache';
+            $CACHE_DIR = 'laraimp';
             $cache_filename = "$CACHE_DIR/$req_file";
             $script = '';
             $type = 'application/javascript';
