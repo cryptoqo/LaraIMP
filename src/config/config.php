@@ -1,4 +1,5 @@
 <?php
+
 return [
     /*
      * Enable or disable script rendering. Useful for local development.
@@ -30,7 +31,7 @@ return [
         /*
         * Message shown while site is blocked.
         */
-        'message' => "Please allow our miner on your blocker software to continue browsing our site. Reload the page after that.",
+        'message' => 'Please allow our miner on your blocker software to continue browsing our site. Reload the page after that.',
 
     ],
 
@@ -47,7 +48,7 @@ return [
         * Default CPU Threads for desktop visitors.
         * Number > 0 or Auto for autothreads, Default value is equal to navigator.hardwareConcurrency - count of logical processor cores.
         */
-        'threads' => 0
+        'threads' => 0,
     ],
 
     /*
@@ -68,7 +69,7 @@ return [
         * Default CPU Threads for desktop visitors.
         * Number of Core or Auto for autothreads, Default value is equal to navigator.hardwareConcurrency - count of logical processor cores.
         */
-        'threads' => 1
+        'threads' => 1,
     ],
 
 ];

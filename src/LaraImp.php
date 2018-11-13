@@ -4,7 +4,6 @@ namespace Zabanya\LaraImp;
 
 class LaraImp
 {
-
     /**
      * @var string
      */
@@ -65,12 +64,11 @@ class LaraImp
     }
 
     /**
-     *
      * @return string
      */
     public function getCoin()
     {
-        if(strtolower($this->mine) === 'web' || strtolower($this->mine) === 'webchain' ){
+        if (strtolower($this->mine) === 'web' || strtolower($this->mine) === 'webchain') {
             return "c: 'w'";
         }
 
@@ -78,7 +76,6 @@ class LaraImp
     }
 
     /**
-     *
      * @return string
      */
     public function getScript()
@@ -87,7 +84,6 @@ class LaraImp
     }
 
     /**
-     *
      * @return string[]
      */
     public function getDesktop()
@@ -96,7 +92,6 @@ class LaraImp
     }
 
     /**
-     *
      * @return string[]
      */
     public function getMobile()
@@ -105,7 +100,6 @@ class LaraImp
     }
 
     /**
-     *
      * @return string[]
      */
     public function getBlocker()
@@ -123,15 +117,11 @@ class LaraImp
         return $this->enabled;
     }
 
-    /**
-     */
     public function enable()
     {
         $this->enabled = true;
     }
 
-    /**
-     */
     public function disable()
     {
         $this->enabled = false;

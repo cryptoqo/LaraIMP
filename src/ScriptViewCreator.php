@@ -3,7 +3,6 @@
 namespace Zabanya\LaraImp;
 
 use Illuminate\View\View;
-use Zabanya\LaraImp\LaraImp;
 
 class ScriptViewCreator
 {

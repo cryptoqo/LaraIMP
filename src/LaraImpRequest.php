@@ -24,7 +24,7 @@ class LaraImpRequest extends FormRequest
     public function rules()
     {
         return [
-            'f' => ['required', 'regex:/^\w{4}\.js$|^\w{6}\.js$|^\w{7}\.min\.js\.mem$|^\w{8}\.wasm$/']
+            'f' => ['required', 'regex:/^\w{4}\.js$|^\w{6}\.js$|^\w{7}\.min\.js\.mem$|^\w{8}\.wasm$/'],
         ];
     }
 

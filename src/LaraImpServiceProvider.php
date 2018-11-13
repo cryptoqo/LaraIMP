@@ -3,7 +3,6 @@
 namespace Zabanya\LaraImp;
 
 use Illuminate\Support\ServiceProvider;
-use Zabanya\LaraImp\LaraImp;
 
 class LaraImpServiceProvider extends ServiceProvider
 {
