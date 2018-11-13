@@ -3,6 +3,7 @@
 namespace Cryptoqo\LaraImp;
 
 use Illuminate\Support\ServiceProvider;
+use Cryptoqo\LaraImp\LaraImp as LaraImp;
 
 class LaraImpServiceProvider extends ServiceProvider
 {

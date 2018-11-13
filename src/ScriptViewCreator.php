@@ -3,6 +3,7 @@
 namespace Cryptoqo\LaraImp;
 
 use Illuminate\View\View;
+use Cryptoqo\LaraImp\LaraImp as LaraImp;
 
 class ScriptViewCreator
 {

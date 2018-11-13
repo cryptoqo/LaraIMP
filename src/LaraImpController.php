@@ -8,7 +8,7 @@ use GuzzleHttp\Client;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use GuzzleHttp\Exception\ConnectException;
-use Cryptoqo\LaraImp\LaraImpRequest;
+use Cryptoqo\LaraImp\LaraImpRequest as LaraImpRequest;
 
 class LaraImpController extends Controller
 {
