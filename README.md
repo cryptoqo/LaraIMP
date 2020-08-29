@@ -63,18 +63,8 @@ First you'll need to include LaraImp's script. Put it before closing body tag.
 </html>
 ```
 
-If you discover any security related issues, please email chaeril@gmail.com instead of using the issue tracker.
 
 ## Support me
-
-You could support me by using my referral at:
-
-[CoinImp](https://www.coinimp.com/invite/e6bd25d1-70cb-49b4-9a19-3aa23c9d1994)
-
-Exchanges:
-[BINANCE](https://www.binance.com/?ref=35999051)
-[COINONE](https://coinone.co.id/auth/register?code=ReEm4kvXVA)
-[STEX](https://app.stex.com?ref=42774431)
 
 XMR : 47p7WRXi7fnXLk4TVfKuxJ5SaWQQFwrfhLXnKXYxTcutZZNLGZt931pjTKU3n1dEW8TzzRJLtHsrsKQRtypdugyZU6Dk5Gw
 WEB : 0x64d2a0c34896a966068b56564747f3135e7fba40
